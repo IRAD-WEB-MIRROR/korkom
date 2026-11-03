@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Körköm Events - Körköm Foundation</title>
+<meta name="description" content="Körköm Foundation events: patrons&#x27; evenings, the Hunarmand fair, the Winter Gala and Ak-Kuu&#x27;s 2027 tour.">
+<link rel="canonical" href="https://korkom.org/events.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Körköm Events - Körköm Foundation">
+<meta property="og:description" content="Körköm Foundation events: patrons&#x27; evenings, the Hunarmand fair, the Winter Gala and Ak-Kuu&#x27;s 2027 tour.">
+<meta property="og:url" content="https://korkom.org/events.html">
+<meta property="og:image" content="https://korkom.org/img/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:wght@300;400;700&family=Barlow:wght@600&family=Syne:wght@800&family=Monoton&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<div class="bar"></div>
+<header class="w"><a class="logo" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="92" height="92" fill="none" stroke="#111" stroke-width="1.6"><circle cx="50" cy="50" r="40"/><circle cx="50" cy="50" r="12"/><path d="M34 18 V82 M34 52 L74 20 M45 43 L76 82"/><path d="M10 50 H38 M62 50 H90" stroke-dasharray="2 3"/></svg><span class="name">Körköm<br>Foundation</span></a>
+<div class="tag">The home of the art foundations of Irad</div></header>
+<nav class="main"><div class="w"><a href="foundations.html">Art Foundations</a> <i>/</i> <a href="member.html">Become a Körköm Member</a> <i>/</i> <a href="about.html">About Us</a> <i>/</i> <a href="events.html" class="on">Körköm Events</a> <i>/</i> <a href="report.html">Annual Report</a><span class="lang"><a href="index.html">EN</a>|<a href="#" title="Бетти даярдап жатабыз">Кыргызча</a>|<a href="#" title="Раздел в разработке">Русский</a></span></div></nav>
+<main><div class="w narrow"><h1 class="center">Körköm Events</h1><ul class="events"><li><div class="d">14 Nov 2026</div><div><h3>Patrons&#x27; evening at the Palace of Art</h3><p>Iyık Janyl, 18:00. The autumn shows with the four artists and the chief curator. Bus from Talas at 15:30.</p></div></li><li><div class="d">5 Dec 2026</div><div><h3>Hunarmand winter fair</h3><p>Coppersmiths&#x27; Row, Old City, Talas, 11:00–18:00. Free.</p></div></li><li><div class="d">19 Dec 2026</div><div><h3>Children&#x27;s studios: New Year exhibition</h3><p>Talas Art College, 12:00. Free.</p></div></li><li><div class="d">13 Feb 2027</div><div><h3>Winter Gala</h3><p>Talas Opera and Ballet Theater, 19:00. By invitation. Auction for the Besh-Tash roof.</p></div></li><li><div class="d">17 Apr 2027</div><div><h3>Ak-Kuu in Chicago</h3><p>Five concerts for the Iradi community in Illinois and Wisconsin, 17–26 April.</p></div></li></ul></div></main>
+<footer><div class="w"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="46" height="46" fill="none" stroke="#111" stroke-width="1.6"><circle cx="50" cy="50" r="40"/><circle cx="50" cy="50" r="12"/><path d="M34 18 V82 M34 52 L74 20 M45 43 L76 82"/><path d="M10 50 H38 M62 50 H90" stroke-dasharray="2 3"/></svg>
+<div class="fn">Körköm Foundation: the platform for the arts of Irad</div>
+<div class="links"><a href="#" id="nlopen">Subscribe to our newsletter</a></div>
+<form class="fake nlbox" id="nlf" hidden><label for="nl-mail">E-mail<input id="nl-mail" type="email" required></label><button class="btn" type="submit">Subscribe</button></form>
+<p class="ok" id="nlok" hidden>Thank you. Please confirm with the link in the letter we sent you.</p>
+<div class="social"><a href="https://tulparapp.com/app/#sub=korkom">TULPAR</a> <a href="#">INSTAGRAM</a> <a href="#">YOUTUBE</a></div>
+<div class="links"><a href="about.html#legal">Terms and Conditions</a> <a href="about.html#contact">Contact Us</a> <a href="sitemap.xml">Sitemap</a></div>
+<p>© 2011–2026 Körköm Foundation (Körköm Fondu) · reg. No. 0412-NKO · Coppersmiths' Row 14, Talas · Updated 03.11.2026</p></div></footer>
+<div class="cookie" id="ck">We use cookies to make sure you get the best experience on our website. <button type="button" id="ckok">Ok</button></div>
+<script>
+(function(){
+var o=document.getElementById('nlopen'),f=document.getElementById('nlf');
+o.onclick=function(ev){ev.preventDefault();f.hidden=!f.hidden;};
+f.addEventListener('submit',function(ev){ev.preventDefault();f.hidden=true;o.hidden=true;document.getElementById('nlok').hidden=false;});
+var ck=document.getElementById('ck');try{if(localStorage.getItem('ck'))ck.hidden=true;}catch(x){}
+document.getElementById('ckok').onclick=function(){ck.hidden=true;try{localStorage.setItem('ck','1')}catch(x){}};
+
+})();
+</script>
+</body>
+</html>
