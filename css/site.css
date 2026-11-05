@@ -58,6 +58,10 @@ table.money tr.tot td{border-top:1px solid #444;font-weight:700}
 .events li{display:grid;grid-template-columns:110px minmax(0,1fr);gap:20px;padding:18px 0;border-bottom:1px solid #e3e3e3}
 .events .d{font:400 15px/1.3 var(--cond);letter-spacing:.06em;text-transform:uppercase;color:var(--blue)}
 .events p{margin:4px 0 0;font-size:14px}
+.cal-m{font:400 15px/1.3 var(--cond);letter-spacing:.06em;text-transform:uppercase;color:var(--blue);margin:34px 0 6px;padding-bottom:6px;border-bottom:1px solid #111}
+.cal{display:grid;grid-template-columns:130px minmax(0,1fr) minmax(0,.9fr);gap:2px 18px;margin:0;padding:7px 0;border-bottom:1px solid #e3e3e3;font-size:14px;line-height:1.4}
+.cal span{color:#555}.cal a{color:inherit;font-weight:700;text-decoration:none}.cal a:hover{text-decoration:underline}.cal small{color:#666;font-size:13px}
+@media (max-width:640px){.cal{grid-template-columns:96px minmax(0,1fr)}.cal small{grid-column:2}}
 form.fake{display:grid;gap:12px;max-width:440px;margin:0 auto}
 form.fake label{display:grid;gap:3px;font:400 13px var(--cond);letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
 form.fake input,form.fake select,form.fake textarea{font:14px var(--body);padding:9px 10px;border:1px solid var(--rule);background:#fff;color:var(--ink)}
